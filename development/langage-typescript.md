@@ -1,4 +1,4 @@
-# TypeScript
+[# TypeScript
 
 > ❌ A travailler
 
@@ -56,3 +56,4 @@ Résolution :
 
 - J'ai ecrit un [tutoriel](...) ❌ / ✔️
 - J'ai fait une [présentation](...) ❌ / ✔️
+](https://github.com/JulieCombeau/WNS_Livecoding)
