@@ -6,14 +6,26 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- Comment développer en utilisant un système de *livereloading* (`nodemon` par exemple) ❌ / ✔️
-- La connexion de mon application à une base de données avec et sans ORM/ODM (avec `mongodb` puis `mongoose` par exemple) ❌ / ✔️
-- Le développement d'une API REST et GraphQL (avec les packages `express` et `graphql` par exemple) ❌ / ✔️
-- *Bonus : la manipulation des fichiers système avec `fs` et l'utilisation des streams en NodeJS* ❌ / ✔️
+- Comment développer en utilisant un système de _livereloading_ (`nodemon` par exemple) ✔️
+  Cela maintient le fonctionnement du serveur et ainsi permettre la mise à jour instannée dès qu'une modification sur un fichier est enregistrée.
+
+- La connexion de mon application à une base de données avec et sans ORM/ODM (avec `mongodb` puis `mongoose` par exemple) ✔️
+  La connexion se fait par le biais de variables d'environnement en lien avec la base de données selectionnée .
+  Exemple avec prisma et mySql :
+
+```javascript
+DATABASE_URL =
+  "mysql://username:password@localhost:3306/dbscheme?schema=public";
+```
+
+- Le développement d'une API REST et GraphQL (avec les packages `express` et `graphql` par exemple) ✔️
+  API REST mis en place avec avec le package "express" pour l'instant. Utilisé pour créer des services web au travers des méthodes HTTP (get, post, put, delete)
+
+- _Bonus : la manipulation des fichiers système avec `fs` et l'utilisation des streams en NodeJS_ ❌
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ❌
 
 ```javascript
 // this function takes a path to a .md file of the host system and write the HTML version of this file
@@ -21,9 +33,9 @@
 const convertMDFileToHTML = (pathToMDfile) => /* ... path to HTML file */
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/WildCodeSchool/2022-03-JS-RemoteFR-TeamKarma-P3-Habble)
 
 Description :
 
