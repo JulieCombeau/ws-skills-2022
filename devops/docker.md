@@ -6,22 +6,24 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- la création d'une image docker ❌ / ✔️
-- l'éxécution d'un container ❌ / ✔️
-- l'orchestration de containers avec docker-compose ❌ / ✔️
-
+- la création d'une image docker ✔️
+  Une image est un exécutable créée à partir d'un fichier Dockerfile.
+- l'éxécution d'un container ✔️
+  Le container est mis en place au lancement du build d'une image
+- l'orchestration de containers avec docker-compose ✔️
+  Se fait par le fichier docker-compose.yml et permet de lier les différents containers (généralement un pour le front, un pour le back et un autre pour la db)
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ❌
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ❌
 
 [lien github](...)
 
 Description :
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable ❌
 
 [lien du projet](...)
 
